@@ -1,14 +1,11 @@
 package project.entity.user;
 
-
-import org.hibernate.annotations.DynamicUpdate;
-
 import javax.persistence.*;
 
 /**
  * Created by Ivan on 19.03.2017.
  */
-@DynamicUpdate
+@Entity
 @Table(name = "user")
 public class User {
 

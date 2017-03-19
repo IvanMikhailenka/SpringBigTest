@@ -1,4 +1,4 @@
-package project.hibernate;
+package project.configuration.hibernate;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +21,7 @@ import java.util.Properties;
  */
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({"project.entity.*"})
+@ComponentScan({"project.entity.*", "project.dao.*"})
 @PropertySource(value = {"classpath:hibernateMySQL.properties"})
 public class HibernateConfiguration {
 

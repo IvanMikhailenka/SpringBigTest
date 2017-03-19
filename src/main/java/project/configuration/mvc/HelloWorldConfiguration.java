@@ -1,4 +1,4 @@
-package project.configuration;
+package project.configuration.mvc;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -14,7 +14,7 @@ import org.springframework.web.servlet.view.JstlView;
 @ComponentScan(basePackages = "project")
 public class HelloWorldConfiguration extends WebMvcConfigurerAdapter {
 
-	@Bean(name="HelloWorld")
+	@Bean
 	public ViewResolver viewResolver() {
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
 		viewResolver.setViewClass(JstlView.class);
