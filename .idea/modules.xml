@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpringMVCHelloWord.iml" filepath="$PROJECT_DIR$/SpringMVCHelloWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-big-test-project.iml" filepath="$PROJECT_DIR$/spring-big-test-project.iml" />
     </modules>
   </component>
 </project>
