@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringMVCHelloWord:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="ant-postprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="spring-mvc-helloword-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SpringMVCHelloWord:war exploded" />
+    </root>
+  </artifact>
+</component>
